@@ -1,0 +1,15 @@
+.vscode
+.idea
+node_modules
+.DS_Store
+
+
+
+
+echo "# webperusteet" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/iisakki354/webperusteet.git
+git push -u origin main
